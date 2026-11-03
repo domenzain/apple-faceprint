@@ -28,3 +28,9 @@ dist/
 !docs/*.png
 uv.lock
 .ruff_cache/
+
+# Local Photos library copies — path docs only, never commit the database
+Photos.sqlite
+Photos.sqlite-wal
+Photos.sqlite-shm
+*.photoslibrary/
